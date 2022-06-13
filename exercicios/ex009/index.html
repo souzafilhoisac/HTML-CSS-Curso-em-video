@@ -4,32 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Outras formatações</title>
+    <title>Listas</title>
 </head>
 <body>
-    <h1>Outras formatações</h1>
-    <h2>Código-fonte / Pré-formatação</h2>
-    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript.</p>
-    <pre>
-        <code>
-    num = int(input('Digite um número'))
-    if num % 2 == 0;
-        print(f'O número {num} é PAR)
-    else:
-        print(f'O número {num} é ÍMPAR)
-    print('Fim do programa')
-        </code>
-    </pre>
-    <h2>Citações simples</h2>
-    <p>Como diria o pai de um amigo: <q>O computador é um burro muito rápido</q></p>
-    <h2>Citações completas</h2>
-    <p>Segundo Maurício Samy Silva, no seu livro Fundamentos de HTML5 e CSS3:</p>
-    <blockquote cite="https://www.google.com.br/books/edition/Fundamentos_de_HTML5_e_CSS3/2iPYCQAAQBAJ?hl=pt-BR&gbpv=1&dq=html&printsec=frontcover">
-        Por padrão, os elementos HTML nível de bloco distribuem-se verticalmente um após o outro na ordem em que aparecem na marcação HTML e os elementos inline posicionam-se em linha horizontal.
-    </blockquote>
-    <h2>Abreviações</h2>
-    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> E <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p>
-    <h2>Texto invertido</h2>
-    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML.</bdo></p>
+    <h1>Trabalhando com listas</h1>
+    <h2>Litas ordenadas</h2>
+    <ol type="I"> <!--Podemos usar 1, A, a, I e i-->
+        <li>Acordar</li>
+        <li>Ligar para o João</li>
+        <li>Tomar café
+        <li>Escovar os dentes  <!--O fechamento da tag li é opcional-->
+        <li>Ir pra faculdade 
+        <li>Almoçar</li>
+        <li>Ir para o trabalho</li>
+        <li>Voltar para casa</li>
+        <li>Jantar</li>
+        <li>Dormir</li>
+    </ol>
+    <h2>Listas não ordenadas</h2>
+    <ul type="square">  <!--Temos opções de disc, circle e square-->
+        <li>Pão</li>
+        <li>Queijo</li>
+        <li>Presunto</li>
+        <li>Leite</li>
+        <li>Manteiga</li>
+        <li>Ovos</li>
+    </ul>
 </body>
 </html>
