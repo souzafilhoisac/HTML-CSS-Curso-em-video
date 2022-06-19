@@ -6,13 +6,103 @@
     font-style: normal;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin: 0px;
+}
+
 #titulo {
     text-align: center;
+    font-weight: normal;
+    text-shadow: black;
+    width: 420px;
+    margin: auto;
+}
+
+nav {
+    padding: 5px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 9.5px;
+    padding-left: 6px;
+    margin: 0px;
+}
+
+nav > a:hover{
+    background-color: white;
+}
+
+#menu > p {
+    margin: 0px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-style: normal;
+    font-size: 16px;
+    height: 25px;
+    margin: 0px;
+    padding-top: 20px;
 }
 
 header {
-    background-color: rgb(2, 61, 2);
+    background-image: linear-gradient(to bottom, rgba(84, 220, 132), rgb(29, 91, 56));
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+}
+
+main {
+    background-color: rgb(132, 225, 173);
+    padding-bottom: 12px;
+}
+
+section {
+    background-color: white;
+    width: 64%;
+    box-shadow: 0px 0px 2px 3px rgba(0, 0, 0, 0.199);
+    margin: auto;
+    padding: 14px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+h2 {
+    font-family: idroid;
+    font-size: 19.5px;
+    color: #387454;
+    margin-left: 0px;
+}
+
+h3 {
+    font-family: idroid, sans-serif;
+    font-size: 14.8px;
+    background-image: linear-gradient(to right, #C5EBD6, #FBFEFC);
+    color: #387454;
+    padding-left: 5px;
+    margin: 0px;
+}
+
+#android {
+    width: 80%;
+}
+
+footer {
+    background-color: rgb(30, 92, 56);
+    color: white;
+    text-align: center;
+    margin: 0px;
+}
+
+footer > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 10px;
+    margin: 0px;
+    padding: 5px;
 }
