@@ -16,8 +16,13 @@ body {
     text-align: center;
     font-weight: normal;
     text-shadow: black;
-    width: 420px;
+    width: 50%;
     margin: auto;
+}
+
+p {
+    font-size: 12px;
+    text-indent: 35px;
 }
 
 nav {
@@ -28,24 +33,23 @@ nav > a {
     text-decoration: none;
     color: white;
     font-weight: bold;
-    font-size: 9.5px;
-    padding-left: 6px;
+    font-size: 16px;
+    padding-left: 15px;
+    padding-right: 10px;
     margin: 0px;
 }
 
 nav > a:hover{
-    background-color: white;
-}
-
-#menu > p {
-    margin: 0px;
+    background-color: rgba(104, 212, 142, 0.897);
+    color: #387454;
 }
 
 h1 {
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
+    text-indent: 35px;
     font-style: normal;
-    font-size: 16px;
+    font-size: 22px;
     height: 25px;
     margin: 0px;
     padding-top: 20px;
@@ -59,37 +63,75 @@ header {
 }
 
 main {
-    background-color: rgb(132, 225, 173);
+    background-color: rgb(243, 211, 152);
     padding-bottom: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: #256141;
 }
 
 section {
     background-color: white;
-    width: 64%;
+    width: 80%;
     box-shadow: 0px 0px 2px 3px rgba(0, 0, 0, 0.199);
     margin: auto;
-    padding: 14px;
+    padding: 25px;
     border-radius: 0px 0px 10px 10px;
 }
 
 h2 {
     font-family: idroid;
-    font-size: 19.5px;
+    font-size: 32px;
     color: #387454;
     margin-left: 0px;
 }
 
 h3 {
     font-family: idroid, sans-serif;
-    font-size: 14.8px;
+    font-size: 23px;
     background-image: linear-gradient(to right, #C5EBD6, #FBFEFC);
     color: #387454;
     padding-left: 5px;
     margin: 0px;
 }
 
-#android {
-    width: 80%;
+picture {
+    width: 100%;
+    display: flex;
+}
+
+iframe {
+    width: 100%;
+}
+
+div.learnmore {
+    background-color: #26533b;
+    border-radius: 8px;
+}
+
+h4 {
+    color: white;
+    padding: 10px;
+}
+
+article {
+    background-color: rgb(178, 223, 197);
+    padding: 10px;
+}
+
+ul {
+    display: inline;
+    width: 50px;
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    margin: 10px;
+    padding: 0px;
+    width: 205px;
 }
 
 footer {
